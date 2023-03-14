@@ -599,4 +599,22 @@ header.sticky{
     .contact .action form input[type="email"] {
         width: 310px;
     }
+        header{
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        position: relative;
+    }
+    .items{
+        flex-direction: column;
+    }
+    .portfolio-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .service-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .cta-box{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
